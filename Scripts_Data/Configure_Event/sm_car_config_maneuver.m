@@ -130,7 +130,7 @@ switch maneuver_str
         evalin('base',['Init = IDatabase.RDF_Rough_Road.' init_inst ';']);
         evalin('base',['Init_Trailer = IDatabase.RDF_Rough_Road.' init_inst_trl ';']);
         evalin('base',['Maneuver = MDatabase.RDF_Rough_Road.' veh_inst ';']);
-        set_param(drive_h,'popup_driver_type','Closed Loop');
+        set_param(drive_h,'popup_driver_type','MPC Lateral');
         evalin('base',['Driver = DDatabase.Straight_Constant_Speed.' veh_inst ';']);
         set_param(modelname,'StopTime','34');
         sm_car_config_road(modelname,'RDF Rough Road');
@@ -140,7 +140,7 @@ switch maneuver_str
         evalin('base',['Init = IDatabase.RDF_Rough_Road.' init_inst ';']);
         evalin('base',['Init_Trailer = IDatabase.RDF_Rough_Road.' init_inst_trl ';']);
         evalin('base',['Maneuver = MDatabase.RDF_Rough_Road.' veh_inst ';']);
-        set_param(drive_h,'popup_driver_type','Closed Loop');
+        set_param(drive_h,'popup_driver_type','MPC Lateral');
         evalin('base',['Driver = DDatabase.Straight_Constant_Speed.' veh_inst ';']);
         set_param(modelname,'StopTime','34');
         set_param([modelname '/Road/Road Surface Height'],'LabelModeActiveChoice','Rough_Road');
@@ -180,7 +180,7 @@ switch maneuver_str
         evalin('base',['Init = IDatabase.Double_Lane_Change.' init_inst ';']);
         evalin('base',['Init_Trailer = IDatabase.Double_Lane_Change.' init_inst_trl ';']);
         evalin('base',['Maneuver = MDatabase.Double_Lane_Change.' veh_inst ';']);
-        set_param(drive_h,'popup_driver_type','Closed Loop');
+        set_param(drive_h,'popup_driver_type','MPC Lateral');
         evalin('base',['Driver = DDatabase.Double_Lane_Change.' veh_inst ';']);
         sm_car_config_road(modelname,'Double Lane Change');
         set_param(modelname,'StopTime','35');
@@ -212,7 +212,7 @@ switch maneuver_str
         evalin('base',['Init = IDatabase.Skidpad.' init_inst ';']);
         evalin('base',['Init_Trailer = IDatabase.Skidpad.' init_inst_trl ';']);
         evalin('base',['Maneuver = MDatabase.Skidpad.' veh_inst ';']);
-        set_param(drive_h,'popup_driver_type','Closed Loop');
+        set_param(drive_h,'popup_driver_type','MPC Lateral');
         evalin('base',['Driver = DDatabase.Skidpad.' veh_inst ';']);
         sm_car_config_road(modelname,'Skidpad');
         set_param(modelname,'StopTime','50');
@@ -225,7 +225,7 @@ switch maneuver_str
         evalin('base',['Init = IDatabase.Constant_Radius_CL.' init_inst ';']);
         evalin('base',['Init_Trailer = IDatabase.Constant_Radius_CL.' init_inst_trl ';']);
         evalin('base',['Maneuver = MDatabase.Constant_Radius_CL.' veh_inst ';']);
-        set_param(drive_h,'popup_driver_type','Closed Loop');
+        set_param(drive_h,'popup_driver_type','MPC Lateral');
         evalin('base',['Driver = DDatabase.Constant_Radius_CL.' veh_inst ';']);
         sm_car_config_road(modelname,'Constant Radius');
         set_param(modelname,'StopTime','25');
@@ -238,7 +238,7 @@ switch maneuver_str
         evalin('base',['Init = IDatabase.Double_Lane_Change.' init_inst ';']);
         evalin('base',['Init_Trailer = IDatabase.Double_Lane_Change.' init_inst_trl ';']);
         evalin('base',['Maneuver = MDatabase.Straight_Constant_Speed_12_50.' veh_inst ';']);
-        set_param(drive_h,'popup_driver_type','Closed Loop');
+        set_param(drive_h,'popup_driver_type','MPC Lateral');
         evalin('base',['Driver = DDatabase.Straight_Constant_Speed.' veh_inst ';']);
         sm_car_config_road(modelname,'Road Two Lane');
         set_param(modelname,'StopTime','25');
@@ -248,7 +248,7 @@ switch maneuver_str
         evalin('base',['Init = IDatabase.Double_Lane_Change.' init_inst ';']);
         evalin('base',['Init_Trailer = IDatabase.Double_Lane_Change.' init_inst_trl ';']);
         evalin('base',['Maneuver = MDatabase.Straight_Constant_Speed_12_50.' veh_inst ';']);
-        set_param(drive_h,'popup_driver_type','Closed Loop');
+        set_param(drive_h,'popup_driver_type','MPC Lateral');
         evalin('base',['Driver = DDatabase.Straight_Constant_Speed.' veh_inst ';']);
         sm_car_config_road(modelname,'Road Two Lane');
         set_param(modelname,'StopTime','25');
@@ -259,7 +259,7 @@ switch maneuver_str
         evalin('base',['Init = IDatabase.Mallory_Park.' init_inst ';']);
         evalin('base',['Init_Trailer = IDatabase.Mallory_Park.' init_inst_trl ';']);
         evalin('base',['Maneuver = MDatabase.Mallory_Park.' veh_inst ';']);
-        set_param(drive_h,'popup_driver_type','Closed Loop');
+        set_param(drive_h,'popup_driver_type','MPC Lateral');
         evalin('base',['Driver = DDatabase.Mallory_Park.' veh_inst ';']);
         sm_car_config_road(modelname,'Track Mallory Park');
         set_param(modelname,'StopTime','200');
@@ -270,7 +270,7 @@ switch maneuver_str
         evalin('base',['Init = IDatabase.Mallory_Park.CCW_' init_inst ';']);
         evalin('base',['Init_Trailer = IDatabase.Mallory_Park.' init_inst_trl ';']);
         evalin('base',['Maneuver = MDatabase.Mallory_Park.CCW_' veh_inst ';']);
-        set_param(drive_h,'popup_driver_type','Closed Loop');
+        set_param(drive_h,'popup_driver_type','MPC Lateral');
         evalin('base',['Driver = DDatabase.Mallory_Park.' veh_inst ';']);
         sm_car_config_road(modelname,'Track Mallory Park');
         set_param(modelname,'StopTime','200');
@@ -281,7 +281,7 @@ switch maneuver_str
         evalin('base',['Init = IDatabase.Mallory_Park.' init_inst ';']);
         evalin('base',['Init_Trailer = IDatabase.Mallory_Park.' init_inst_trl ';']);
         evalin('base',['Maneuver = MDatabase.Mallory_Park.' veh_inst ';']);
-        set_param(drive_h,'popup_driver_type','Closed Loop');
+        set_param(drive_h,'popup_driver_type','MPC Lateral');
         evalin('base',['Driver = DDatabase.Mallory_Park.' veh_inst ';']);
         set_param([modelname '/Check'],'start_check_time','30000','stop_speed','-50');
         set_param(override_h,'popup_override_type','Track Mallory Park Obstacle');
@@ -293,7 +293,7 @@ switch maneuver_str
         evalin('base',['Init = IDatabase.MCity.' init_inst ';']);
         evalin('base',['Init_Trailer = IDatabase.MCity.' init_inst_trl ';']);
         evalin('base',['Maneuver = MDatabase.MCity.' veh_inst ';']);
-        set_param(drive_h,'popup_driver_type','Closed Loop');
+        set_param(drive_h,'popup_driver_type','MPC Lateral');
         evalin('base',['Driver = DDatabase.MCity.' veh_inst ';']);
         set_param([modelname '/Check'],'start_check_time','30000','stop_speed','-50');
         sm_car_config_road(modelname,'MCity');
@@ -304,7 +304,7 @@ switch maneuver_str
         evalin('base',['Init = IDatabase.CRG_Kyalami.' init_inst ';']);
         evalin('base',['Init_Trailer = IDatabase.CRG_Kyalami.' init_inst_trl ';']);
         evalin('base',['Maneuver = MDatabase.CRG_Kyalami.' veh_inst ';']);
-        set_param(drive_h,'popup_driver_type','Closed Loop');
+        set_param(drive_h,'popup_driver_type','MPC Lateral');
         evalin('base',['Driver = DDatabase.CRG_Kyalami.' veh_inst ';']);
         evalin('base','sm_car_scene_stl_create(Scene.CRG_Kyalami);');
         sm_car_config_road(modelname,'CRG Kyalami');
@@ -316,7 +316,7 @@ switch maneuver_str
         evalin('base',['Init = IDatabase.CRG_Kyalami_F.' init_inst ';']);
         evalin('base',['Init_Trailer = IDatabase.CRG_Kyalami_F.' init_inst_trl ';']);
         evalin('base',['Maneuver = MDatabase.CRG_Kyalami_F.' veh_inst ';']);
-        set_param(drive_h,'popup_driver_type','Closed Loop');
+        set_param(drive_h,'popup_driver_type','MPC Lateral');
         evalin('base',['Driver = DDatabase.CRG_Kyalami.' veh_inst ';']);
         evalin('base','sm_car_scene_stl_create(Scene.CRG_Kyalami_F);');
         sm_car_config_road(modelname,'CRG Kyalami F');
@@ -328,7 +328,7 @@ switch maneuver_str
         evalin('base',['Init = IDatabase.CRG_Mallory_Park.' init_inst ';']);
         evalin('base',['Init_Trailer = IDatabase.CRG_Mallory_Park.' init_inst_trl ';']);
         evalin('base',['Maneuver = MDatabase.CRG_Mallory_Park.' veh_inst ';']);
-        set_param(drive_h,'popup_driver_type','Closed Loop');
+        set_param(drive_h,'popup_driver_type','MPC Lateral');
         evalin('base',['Driver = DDatabase.CRG_Mallory_Park.' veh_inst ';']);
         evalin('base','sm_car_scene_stl_create(Scene.CRG_Mallory_Park);');
         sm_car_config_road(modelname,'CRG Mallory Park');
@@ -340,7 +340,7 @@ switch maneuver_str
         evalin('base',['Init = IDatabase.CRG_Mallory_Park_F.' init_inst ';']);
         evalin('base',['Init_Trailer = IDatabase.CRG_Mallory_Park_F.' init_inst_trl ';']);
         evalin('base',['Maneuver = MDatabase.CRG_Mallory_Park_F.' veh_inst ';']);
-        set_param(drive_h,'popup_driver_type','Closed Loop');
+        set_param(drive_h,'popup_driver_type','MPC Lateral');
         evalin('base',['Driver = DDatabase.CRG_Mallory_Park.' veh_inst ';']);
         evalin('base','sm_car_scene_stl_create(Scene.CRG_Mallory_Park_F);');
         sm_car_config_road(modelname,'CRG Mallory Park F');
@@ -352,7 +352,7 @@ switch maneuver_str
         evalin('base',['Init = IDatabase.CRG_Custom.' init_inst ';']);
         evalin('base',['Init_Trailer = IDatabase.CRG_Custom.' init_inst_trl ';']);
         evalin('base',['Maneuver = MDatabase.CRG_Custom.' veh_inst ';']);
-        set_param(drive_h,'popup_driver_type','Closed Loop');
+        set_param(drive_h,'popup_driver_type','MPC Lateral');
         evalin('base',['Driver = DDatabase.CRG_Custom.' veh_inst ';']);
         evalin('base','sm_car_scene_stl_create(Scene.CRG_Custom);');
         sm_car_config_road(modelname,'CRG Custom');
@@ -364,7 +364,7 @@ switch maneuver_str
         evalin('base',['Init = IDatabase.CRG_Custom_F.' init_inst ';']);
         evalin('base',['Init_Trailer = IDatabase.CRG_Custom_F.' init_inst_trl ';']);
         evalin('base',['Maneuver = MDatabase.CRG_Custom_F.' veh_inst ';']);
-        set_param(drive_h,'popup_driver_type','Closed Loop');
+        set_param(drive_h,'popup_driver_type','MPC Lateral');
         evalin('base',['Driver = DDatabase.CRG_Custom.' veh_inst ';']);
         evalin('base','sm_car_scene_stl_create(Scene.CRG_Custom_F);');
         sm_car_config_road(modelname,'CRG Custom F');
@@ -376,7 +376,7 @@ switch maneuver_str
         evalin('base',['Init = IDatabase.CRG_Nurburgring_N.' init_inst ';']);
         evalin('base',['Init_Trailer = IDatabase.CRG_Nurburgring_N.' init_inst_trl ';']);
         evalin('base',['Maneuver = MDatabase.CRG_Nurburgring_N.' veh_inst ';']);
-        set_param(drive_h,'popup_driver_type','Closed Loop');
+        set_param(drive_h,'popup_driver_type','MPC Lateral');
         evalin('base',['Driver = DDatabase.CRG_Nurburgring_N.' veh_inst ';']);
         evalin('base','sm_car_scene_stl_create(Scene.CRG_Nurburgring_N);');
         sm_car_config_road(modelname,'CRG Nurburgring N');
@@ -388,7 +388,7 @@ switch maneuver_str
         evalin('base',['Init = IDatabase.CRG_Nurburgring_N_F.' init_inst ';']);
         evalin('base',['Init_Trailer = IDatabase.CRG_Nurburgring_N_F.' init_inst_trl ';']);
         evalin('base',['Maneuver = MDatabase.CRG_Nurburgring_N_F.' veh_inst ';']);
-        set_param(drive_h,'popup_driver_type','Closed Loop');
+        set_param(drive_h,'popup_driver_type','MPC Lateral');
         evalin('base',['Driver = DDatabase.CRG_Nurburgring_N.' veh_inst ';']);
         evalin('base','sm_car_scene_stl_create(Scene.CRG_Nurburgring_N_F);');
         sm_car_config_road(modelname,'CRG Nurburgring N F');
@@ -400,7 +400,7 @@ switch maneuver_str
         evalin('base',['Init = IDatabase.CRG_Suzuka.' init_inst ';']);
         evalin('base',['Init_Trailer = IDatabase.CRG_Suzuka.' init_inst_trl ';']);
         evalin('base',['Maneuver = MDatabase.CRG_Suzuka.' veh_inst ';']);
-        set_param(drive_h,'popup_driver_type','Closed Loop');
+        set_param(drive_h,'popup_driver_type','MPC Lateral');
         evalin('base',['Driver = DDatabase.CRG_Suzuka.' veh_inst ';']);
         evalin('base','sm_car_scene_stl_create(Scene.CRG_Suzuka);');
         sm_car_config_road(modelname,'CRG Suzuka');
@@ -415,7 +415,7 @@ switch maneuver_str
         evalin('base',['Init = IDatabase.CRG_Suzuka_F.' init_inst ';']);
         evalin('base',['Init_Trailer = IDatabase.CRG_Suzuka_F.' init_inst_trl ';']);
         evalin('base',['Maneuver = MDatabase.CRG_Suzuka_F.' veh_inst ';']);
-        set_param(drive_h,'popup_driver_type','Closed Loop');
+        set_param(drive_h,'popup_driver_type','MPC Lateral');
         evalin('base',['Driver = DDatabase.CRG_Suzuka.' veh_inst ';']);
         evalin('base','sm_car_scene_stl_create(Scene.CRG_Suzuka_F);');
         sm_car_config_road(modelname,'CRG Suzuka F');
@@ -430,7 +430,7 @@ switch maneuver_str
         evalin('base',['Init = IDatabase.CRG_Pikes_Peak.' init_inst ';']);
         evalin('base',['Init_Trailer = IDatabase.CRG_Pikes_Peak.' init_inst_trl ';']);
         evalin('base',['Maneuver = MDatabase.CRG_Pikes_Peak.' veh_inst ';']);
-        set_param(drive_h,'popup_driver_type','Closed Loop');
+        set_param(drive_h,'popup_driver_type','MPC Lateral');
         evalin('base',['Driver = DDatabase.CRG_Pikes_Peak.' veh_inst ';']);
         evalin('base','sm_car_scene_stl_create(Scene.CRG_Pikes_Peak);');
         sm_car_config_road(modelname,'CRG Pikes Peak');
@@ -441,7 +441,7 @@ switch maneuver_str
         evalin('base',['Init = IDatabase.CRG_Pikes_Peak_Down.' init_inst ';']);
         evalin('base',['Init_Trailer = IDatabase.CRG_Pikes_Peak_Down.' init_inst_trl ';']);
         evalin('base',['Maneuver = MDatabase.CRG_Pikes_Peak.Down_'  veh_inst ';']);
-        set_param(drive_h,'popup_driver_type','Closed Loop');
+        set_param(drive_h,'popup_driver_type','MPC Lateral');
         evalin('base',['Driver = DDatabase.CRG_Pikes_Peak.' veh_inst ';']);
         evalin('base','sm_car_scene_stl_create(Scene.CRG_Pikes_Peak);');
         sm_car_config_road(modelname,'CRG Pikes Peak');
